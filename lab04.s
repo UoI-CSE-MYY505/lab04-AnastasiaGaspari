@@ -20,6 +20,7 @@ arrayNotSorted: .word marianna, markos, maria
 
             la   a0, arrayNotSorted
             li   a1, 4
+            la   a1, 4
             jal  recCheck
 
             li   a7, 10
